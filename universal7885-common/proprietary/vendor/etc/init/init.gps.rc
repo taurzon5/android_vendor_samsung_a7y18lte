@@ -21,4 +21,3 @@ service gpsd /vendor/bin/hw/gpsd -c /vendor/etc/gnss/gps.cfg
     group system inet net_raw wakelock
     capabilities BLOCK_SUSPEND
     ioprio be 0
-
